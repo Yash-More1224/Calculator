@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+button{
+    background-color: #e9edc9;
+    border: solid 1px #a7c957;
+    height: 30px;
+    width: 30px;
+}
+input{
+    height: 27px;
+    width: 90px;
+}
+caption{
+    caption-side: bottom;
+    text-decoration: underline;
+    color: #386641;
+}
+table{
+    border: solid #386641 3px;
+    margin: 10px;
+}
