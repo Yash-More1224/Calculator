@@ -1,3 +1,10 @@
+const equalkey = document.getElementById("ip");
+equalkey.addEventListener("keydown",function(event){
+    if (event.key === "Enter") {
+        findVal();
+    }
+})
+
 function clearIP(){
     const ip = document.getElementById("ip");
     ip.value = "";
